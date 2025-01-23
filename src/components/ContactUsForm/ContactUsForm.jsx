@@ -166,14 +166,9 @@ const ContactForm = () => {
         href="mailto:sales@waretech.com"
         className="block text-gray-600 hover:text-gray-800"
       >
-        Email us: sales@waretech.com
+        Email us: info@warelinetech.com
       </a>
-      <a
-        href="mailto:careers@waretech.com"
-        className="block text-gray-600 hover:text-gray-800"
-      >
-        Join us: careers@waretech.com
-      </a>
+      
     </div>
   </div>
 
@@ -196,30 +191,6 @@ const ContactForm = () => {
   </div>
 </div>
 
-
-//             {/* Horizontal Right Section - Contact Info */}
-//             <div className="mt-16 flex flex-wrap justify-between gap-8 px-4 text-center">
-//                 <div className="w-full md:w-auto space-y-4">
-//                     <h3 className="text-lg font-bold">GET IN TOUCH</h3>
-//                     <div className="space-y-2">
-//                         <a href="mailto:sales@waretech.com" className="block text-gray-600 hover:text-gray-800">
-//                             Email us: info@warelinetech.com
-//                         </a>
-// {/*                         <a href="mailto:careers@waretech.com" className="block text-gray-600 hover:text-gray-800">
-//                             Join us: careers@waretech.com
-//                         </a> */}
-//                     </div>
-//                 </div>
-
-
-        <div className="w-full md:w-auto space-y-4">
-          <h3 className="text-lg font-bold">USA</h3>
-          <div className="space-y-2 text-gray-600">
-            <p>3900 Westerre Parkway Suite 300 Richmond,</p>
-            <p>VA 23233</p>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };
