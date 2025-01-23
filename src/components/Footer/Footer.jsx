@@ -1,6 +1,8 @@
 "use client";
 
 import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -9,19 +11,24 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Contact Section */}
           <div>
-          <img
+            <img
               src="/WarelineLogo.png"
               alt="WareLineTech Logo"
               className="w-60 h-24"
-              
             />
-            <h4 className="font-bold text-lg mb-4">India-Mohali</h4>
+            <h4 className="font-bold text-lg mb-4">India</h4>
             <p className="text-sm">
-            Wareline Technologies, 4th Floor, <br />
+              Wareline Technologies, 4th Floor, <br />
               Plot No. - D-176, Phase 8 B, Industrial Area,<br />
-              Sector 74, Mohali, Punjab, 140501
+              Sector 74, Mohali, Punjab, 140501<br />
+              +91 9090989877
             </p>
-           
+
+            <h4 className="font-bold text-lg mt-4 mb-4">USA</h4>
+            <p className="text-sm">
+              3900 Westerre Parkway Suite 300 Richmond, <br />
+              VA 23233<br />
+            </p>
           </div>
 
           {/* Services Section */}
@@ -38,7 +45,6 @@ const Footer = () => {
                   Web App Development
                 </Link>
               </li>
-             
               <li>
                 <Link href="/services/ai-ml" className="hover:text-blue-600">
                   Artificial Intelligence
@@ -54,7 +60,6 @@ const Footer = () => {
                   Enterprise App Development
                 </Link>
               </li>
-             
               <li>
                 <Link href="/services/iOS" className="hover:text-blue-600">
                   iOS App Development
@@ -124,17 +129,12 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="/industries/hospitality" className="hover:text-blue-600">
-                 Hospitality
+                  Hospitality
                 </Link>
               </li>
               <li>
                 <Link href="/industries/construction" className="hover:text-blue-600">
                   Construction
-                </Link>
-              </li>
-              <li>
-                <Link href="/industries/education" className="hover:text-blue-600">
-                  Education
                 </Link>
               </li>
             </ul>
@@ -159,13 +159,11 @@ const Footer = () => {
                   Contact Us
                 </Link>
               </li>
-             
               <li>
                 <Link href="/hire-developers" className="hover:text-blue-600">
                   Hire Developers
                 </Link>
               </li>
-             
               <li>
                 <Link href="/press" className="hover:text-blue-600">
                   Press Release
@@ -180,6 +178,32 @@ const Footer = () => {
           <p className="text-sm">
             Driving Digital Innovation with Data-Driven and AI-Integrated Mobile and Web App Development Services.
           </p>
+          <div className="mt-4 lg:mt-0 flex space-x-6">
+            <a
+              href="https://www.linkedin.com/company/warelinetech/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-600"
+            >
+              <FontAwesomeIcon icon={faLinkedin} size="lg" />
+            </a>
+            <a
+              href="https://www.facebook.com/warelineTechnologies"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-600"
+            >
+              <FontAwesomeIcon icon={faFacebook} size="lg" />
+            </a>
+            <a
+              href="https://www.instagram.com/warelinetech/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-600"
+            >
+              <FontAwesomeIcon icon={faInstagram} size="lg" />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
