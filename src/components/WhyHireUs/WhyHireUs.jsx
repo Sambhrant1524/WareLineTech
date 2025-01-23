@@ -2,7 +2,7 @@ import React from 'react';
 
 const WhyHireUs = ({
   // Section title props
-  title = "WHY SHOULD YOU HIRE TECHAHEAD DEVELOPERS?",
+  title = "WHY SHOULD YOU HIRE Warelinetech DEVELOPERS?",
   titleClassName = "text-center text-2xl font-bold mb-8",
   
   // Subtitle props

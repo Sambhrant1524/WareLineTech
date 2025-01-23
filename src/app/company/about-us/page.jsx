@@ -1,6 +1,5 @@
 'use client';
 import HeroSection from "@/components/HeroSection/HeroSection";
-import ImageCarousel from "@/components/ImageCarousel/ImageCarousel";
 import ContactUsSection from "@/components/ContactUs/ContactUsSection";
 import FaqSection from "@/components/FAQSection/FAQSection";
 import Carousel from "@/components/Carousel/Carousel";
@@ -26,20 +25,7 @@ const AboutUs = () => {
     ];
 
 
-    const imageUrls = [
-        'https://lh3.googleusercontent.com/p/AF1QipPaNZtmVrxlCdxfyQGz7dLTSj_sbJIUjgddXKpM=s680-w680-h510',
-        'https://lh3.googleusercontent.com/p/AF1QipOwSEHKJ-xiq_VLmMfMRT11GrKadWTLSjepAGBZ=s680-w680-h510',
-        'https://lh3.googleusercontent.com/p/AF1QipMMrKujBu8mg2odbJTDFhhLmpWt9SISEkHM8gfU=s680-w680-h510',
-        'https://lh3.googleusercontent.com/p/AF1QipNidwr9PYFmfSEWufTnd9v0TwjhxIAwwNXTOUMj=s680-w680-h510',
-        'https://lh3.googleusercontent.com/p/AF1QipMiUxZF67BRsV1Go7hSIDKXy3xCxt6KeE_3t4hi=s680-w680-h510',
-        'https://lh3.googleusercontent.com/p/AF1QipNOydCHVDm9dy97EruAthOqk-1-jSP62CC_64OK=s680-w680-h510',
-        'https://lh3.googleusercontent.com/p/AF1QipPaNZtmVrxlCdxfyQGz7dLTSj_sbJIUjgddXKpM=s680-w680-h510',
-        'https://lh3.googleusercontent.com/p/AF1QipOwSEHKJ-xiq_VLmMfMRT11GrKadWTLSjepAGBZ=s680-w680-h510',
-        'https://lh3.googleusercontent.com/p/AF1QipMMrKujBu8mg2odbJTDFhhLmpWt9SISEkHM8gfU=s680-w680-h510',
-        'https://lh3.googleusercontent.com/p/AF1QipNidwr9PYFmfSEWufTnd9v0TwjhxIAwwNXTOUMj=s680-w680-h510',
-        'https://lh3.googleusercontent.com/p/AF1QipMiUxZF67BRsV1Go7hSIDKXy3xCxt6KeE_3t4hi=s680-w680-h510',
-        'https://lh3.googleusercontent.com/p/AF1QipNOydCHVDm9dy97EruAthOqk-1-jSP62CC_64OK=s680-w680-h510',
-    ];
+  
 
     const faqData = [
 
@@ -137,7 +123,7 @@ const AboutUs = () => {
     const teamData = [
       {
         name: "Akul Malhotra",
-        title: "CEO",
+        title: "COO",
         description: `Akul Suhail Malhotra, COO of Wareline Technologies, blends expertise in technology and business, with experience at the US Department of Defense and Apple. Committed to transparency and innovation, he drives strategic growth, redefining application development in India.`
       },
       {
@@ -157,13 +143,9 @@ const AboutUs = () => {
                 headingHighlight="We craft tomorrow’s"
                 headingFirstPart=" digital experiences products, and ventures"
                 headingLastPart="Tailored for You"
-                subtext="The Success Stories of TechAhead, that brought light to many Startups and Global Brands."
+                subtext="The Success Stories of WarelieTech, that brought light to many Startups and Global Brands."
 
             />
-
-            <div className="container mx-auto mt-10">
-                <ImageCarousel images={imageUrls} />
-            </div>
 
             <WhyHireUs
                 cards={cardsData}

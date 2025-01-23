@@ -148,7 +148,7 @@ export default function Healthcare() {
       <HeroSection2
   backgroundImage="/IndustriesImg/Fintechbg.jpg"
   buttonGradient="bg-gradient-to-r from-blue-400 to-gray-200"
-  title=" Insurance App Development Company"
+  title=" Fintech App Development Company"
   description="Collaborate with WareLineTech, a premier Insurance App development partner, to revolutionize insurance workflows, boost efficiency, and deliver exceptional customer experiences."
   imageSrc="/IndustriesImg/FintechHero.jpeg"
 />

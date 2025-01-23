@@ -14,7 +14,7 @@ export default function Industries() {
         headingHighlight="Empowering Industries with"
         headingFirstPart="innovative digital solutions,"
         headingLastPart="tailored to industry needs"
-        subtext="TechAhead drives transformation across diverse sectors, delivering impactful solutions for startups and global brands alike."
+        subtext="WarelineTech drives transformation across diverse sectors, delivering impactful solutions for startups and global brands alike."
         floatingImages={[
           "https://images.pexels.com/photos/1462633/pexels-photo-1462633.jpeg?auto=compress&cs=tinysrgb&w=600",
           "https://images.pexels.com/photos/5716042/pexels-photo-5716042.jpeg?auto=compress&cs=tinysrgb&w=600",

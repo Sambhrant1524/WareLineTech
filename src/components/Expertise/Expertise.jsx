@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const Expertise = ({
     title = "BREAK NEW GROUND",
     subtitle = "Our Expertise Across Platforms",
-    description = "At TechAhead, we specialize in developing innovative solutions across a diverse range of platforms. Our expertise spans:",
+    description = "At Warelinetech, we specialize in developing innovative solutions across a diverse range of platforms. Our expertise spans:",
     data = [],
     className = "",
     headerClassName = "",

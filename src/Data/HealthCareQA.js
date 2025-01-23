@@ -24,8 +24,8 @@ const healthcareQA = [
       answer: "Yes, we can integrate your healthcare app with existing hospital systems like EHR/EMR, appointment scheduling software, billing systems, and other third-party APIs to ensure seamless data exchange and enhanced functionality."
     },
     {
-      question: "What sets TechAhead apart from other healthcare app development companies?",
-      answer: "TechAhead stands out due to its expertise in healthcare app development, adherence to compliance regulations, innovative solutions, a team of experienced developers, and a proven track record of delivering secure, scalable, and user-friendly healthcare apps tailored to client needs."
+      question: "What sets Warelinetech apart from other healthcare app development companies?",
+      answer: "Warelinetech stands out due to its expertise in healthcare app development, adherence to compliance regulations, innovative solutions, a team of experienced developers, and a proven track record of delivering secure, scalable, and user-friendly healthcare apps tailored to client needs."
     },
     {
       question: "Do you offer ongoing support and maintenance for healthcare apps?",

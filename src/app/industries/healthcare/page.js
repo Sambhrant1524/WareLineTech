@@ -6,7 +6,7 @@ import FaqSection from "@/components/FAQSection/FAQSection";
 import ContactUsSection from "@/components/ContactUs/ContactUsSection";
 
 const content = {
-  title: "This is why Techahead is the",
+  title: "This is why WarelineTech is the",
   highlight: "#1 Healthcare App Development Company",
   description:
     "From diagnosis to recovery, our healthcare app development services and tools ensure streamlined processes & enhanced communication, ensuring world-class healthcare services.",
@@ -152,8 +152,8 @@ export default function Healthcare() {
       <HeroSection2
         backgroundImage="/IndustriesImg/HealthCareBg.jpeg"
         buttonGradient="bg-gradient-to-r from-green-400 to-yellow-500"
-        title="Insurance App Development Company"
-        description="Partner with TechAhead, a leading Insurance App development company to transform insurance processes & drive efficiency and unmatched customer satisfaction"
+        title="HealthCare App Development Company"
+        description="Partner with WarelineTech, a leading Insurance App development company to transform insurance processes & drive efficiency and unmatched customer satisfaction"
         imageSrc="/IndustriesImg/HealthCareHero.png"
       />
       <AboutSection

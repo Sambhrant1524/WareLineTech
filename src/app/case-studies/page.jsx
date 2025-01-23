@@ -150,7 +150,7 @@ const CaseStudies = () => {
         headingHighlight="We craft tomorrow’s"
         headingFirstPart=" digital experiences products, and ventures"
         headingLastPart="Tailored for You"
-        subtext="The Success Stories of TechAhead, that brought light to many Startups and Global Brands."
+        subtext="The Success Stories of WarelineTech, that brought light to many Startups and Global Brands."
         floatingImages={[
           "/Case-study/6.png",
           "/Case-study/7.png",

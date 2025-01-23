@@ -1,5 +1,5 @@
 const aboutData = {
-    title: "This is why Techahead is the",
+    title: "This is why Warelinetech is the",
     highlight: "#1 Healthcare App Development Company",
     description:
       "From diagnosis to recovery, our healthcare app development services and tools ensure streamlined processes & enhanced communication, ensuring world-class healthcare services.",
