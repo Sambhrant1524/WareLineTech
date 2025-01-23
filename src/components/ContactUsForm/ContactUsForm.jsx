@@ -177,6 +177,7 @@ const ContactForm = () => {
           </div>
         </div>
 
+
         <div className="w-full md:w-auto space-y-4">
           <h3 className="text-lg font-bold">INDIA</h3>
           <div className="space-y-2 text-gray-600">
@@ -186,6 +187,21 @@ const ContactForm = () => {
             <p> +91 9090989877</p>
           </div>
         </div>
+
+//             {/* Horizontal Right Section - Contact Info */}
+//             <div className="mt-16 flex flex-wrap justify-between gap-8 px-4 text-center">
+//                 <div className="w-full md:w-auto space-y-4">
+//                     <h3 className="text-lg font-bold">GET IN TOUCH</h3>
+//                     <div className="space-y-2">
+//                         <a href="mailto:sales@waretech.com" className="block text-gray-600 hover:text-gray-800">
+//                             Email us: info@warelinetech.com
+//                         </a>
+// {/*                         <a href="mailto:careers@waretech.com" className="block text-gray-600 hover:text-gray-800">
+//                             Join us: careers@waretech.com
+//                         </a> */}
+//                     </div>
+//                 </div>
+
 
         <div className="w-full md:w-auto space-y-4">
           <h3 className="text-lg font-bold">USA</h3>
