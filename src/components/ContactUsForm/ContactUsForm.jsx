@@ -130,11 +130,11 @@ const ContactForm = () => {
                     <h3 className="text-lg font-bold">GET IN TOUCH</h3>
                     <div className="space-y-2">
                         <a href="mailto:sales@waretech.com" className="block text-gray-600 hover:text-gray-800">
-                            Email us: sales@waretech.com
+                            Email us: info@warelinetech.com
                         </a>
-                        <a href="mailto:careers@waretech.com" className="block text-gray-600 hover:text-gray-800">
+{/*                         <a href="mailto:careers@waretech.com" className="block text-gray-600 hover:text-gray-800">
                             Join us: careers@waretech.com
-                        </a>
+                        </a> */}
                     </div>
                 </div>
 
