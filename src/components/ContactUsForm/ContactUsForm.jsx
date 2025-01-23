@@ -157,36 +157,45 @@ const ContactForm = () => {
         </div>
       </div>
 
-      {/* Horizontal Right Section - Contact Info */}
-      <div className="mt-16 flex flex-wrap justify-between gap-8 px-8 text-center md:pl-8">
-        <div className="w-full md:w-auto space-y-4">
-          <h3 className="text-lg font-bold">GET IN TOUCH</h3>
-          <div className="space-y-2">
-            <a
-              href="mailto:sales@waretech.com"
-              className="block text-gray-600 hover:text-gray-800"
-            >
-              Email us: sales@waretech.com
-            </a>
-            <a
-              href="mailto:careers@waretech.com"
-              className="block text-gray-600 hover:text-gray-800"
-            >
-              Join us: careers@waretech.com
-            </a>
-          </div>
-        </div>
+{/* Horizontal Right Section - Contact Info */}
+<div className="mt-16 flex flex-wrap justify-between gap-8 px-8 text-center md:pl-8">
+  <div className="w-full md:w-auto space-y-4">
+    <h3 className="text-lg font-bold">GET IN TOUCH</h3>
+    <div className="space-y-2">
+      <a
+        href="mailto:sales@waretech.com"
+        className="block text-gray-600 hover:text-gray-800"
+      >
+        Email us: sales@waretech.com
+      </a>
+      <a
+        href="mailto:careers@waretech.com"
+        className="block text-gray-600 hover:text-gray-800"
+      >
+        Join us: careers@waretech.com
+      </a>
+    </div>
+  </div>
 
+  <div className="w-full md:w-auto space-y-4">
+    <h3 className="text-lg font-bold">INDIA</h3>
+    <div className="space-y-2 text-gray-600">
+      <p>Wareline Technologies, 4th Floor,</p>
+      <p>Plot No. - D-176, Phase 8 B, Industrial Area,</p>
+      <p>Sector 74, Mohali, Punjab, 140501</p>
+      <p>+91 9090989877</p>
+    </div>
+  </div>
 
-        <div className="w-full md:w-auto space-y-4">
-          <h3 className="text-lg font-bold">INDIA</h3>
-          <div className="space-y-2 text-gray-600">
-            <p>Wareline Technologies, 4th Floor,</p>
-            <p>Plot No. - D-176, Phase 8 B, Industrial Area,</p>
-            <p>Sector 74, Mohali, Punjab, 140501</p>
-            <p> +91 9090989877</p>
-          </div>
-        </div>
+  <div className="w-full md:w-auto space-y-4">
+    <h3 className="text-lg font-bold">USA</h3>
+    <div className="space-y-2 text-gray-600">
+      <p>3900 Westerre Parkway Suite 300 Richmond,</p>
+      <p>VA 23233</p>
+    </div>
+  </div>
+</div>
+
 
 //             {/* Horizontal Right Section - Contact Info */}
 //             <div className="mt-16 flex flex-wrap justify-between gap-8 px-4 text-center">
