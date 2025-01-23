@@ -58,8 +58,8 @@ export default function Home() {
       button1HoverColor: "hover:bg-gray-200 hover:text-black",
       button2Text: "Contact Us",
       button2Gradient: "to right, #00008B, #add8e6",
-      heading: "Unmatched Experience Awaits",
-      highlightText: "With Ease",
+      heading: "Best Company for",
+      highlightText: "Mobile App Development",
       highlightTextColor: "text-blue-500",
       subtext:
         "Discover services crafted to elevate your business with seamless efficiency, unparalleled support, and outstanding performance.",

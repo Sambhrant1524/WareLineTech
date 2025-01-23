@@ -44,46 +44,50 @@ const LandingPageHeroSection = ({ slides = [] }) => {
     >
       {/* Left Content Section */}
       <div className="lg:flex-[0.6] flex flex-col items-center lg:items-start justify-center p-4 lg:p-12 text-center lg:text-left">
-        <div className="max-w-2xl space-y-6">
-          {smallText && (
-            <div className="inline-block px-4 py-2 text-xs sm:text-sm font-semibold text-gray-700 bg-gray-100 rounded-md">
-              {smallText}
-            </div>
-          )}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
-            {heading}{" "}
-            <span className={`inline-block ${highlightTextColor}`}>
-              {highlightText}
-            </span>
-          </h1>
-          <p className="text-sm sm:text-lg lg:text-xl text-gray-600">
-            {subtext}
-          </p>
-          {showButtons && (
-            <div className="flex flex-row gap-4 justify-center lg:justify-start">
-              <Link href="/case-studies">
-                <button
-                  className={`px-6 py-3 text-sm sm:text-base rounded-full font-medium transform transition-transform duration-300 hover:scale-105 shadow-md ${button1Color} ${button1HoverColor}`}
-                >
-                  {button1Text}
-                </button>
-              </Link>
-              <Link href="/contact-us">
-                <button
-                  className="px-6 py-3 text-sm sm:text-base rounded-full font-medium text-white shadow-md transform transition-transform duration-300 hover:scale-105"
-                  style={{
-                    backgroundImage: button2Gradient
-                      ? `linear-gradient(${button2Gradient})`
-                      : "none",
-                  }}
-                >
-                  {button2Text}
-                </button>
-              </Link>
-            </div>
-          )}
-        </div>
+  <div className="max-w-2xl space-y-8"> {/* Adjusted space-y for better spacing */}
+    {smallText && (
+      <div className="inline-block px-4 py-2 text-xs sm:text-sm font-semibold text-gray-700 bg-gray-100 rounded-md">
+        {smallText}
       </div>
+    )}
+    <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-snug lg:leading-tight">
+      {/* Adjusted line height */}
+      {heading}{" "}
+      <span className={`inline-block ${highlightTextColor}`}>
+        {highlightText}
+      </span>
+    </h1>
+    <p className="text-sm sm:text-lg lg:text-xl text-gray-600 leading-relaxed">
+      {/* Added line height for better spacing */}
+      {subtext}
+    </p>
+    {showButtons && (
+      <div className="flex flex-row gap-4 justify-center lg:justify-start mt-4">
+        {/* Added margin-top for better separation */}
+        <Link href="/case-studies">
+          <button
+            className={`px-6 py-3 text-sm sm:text-base rounded-full font-medium transform transition-transform duration-300 hover:scale-105 shadow-md ${button1Color} ${button1HoverColor}`}
+          >
+            {button1Text}
+          </button>
+        </Link>
+        <Link href="/contact-us">
+          <button
+            className="px-6 py-3 text-sm sm:text-base rounded-full font-medium text-white shadow-md transform transition-transform duration-300 hover:scale-105"
+            style={{
+              backgroundImage: button2Gradient
+                ? `linear-gradient(${button2Gradient})`
+                : "none",
+            }}
+          >
+            {button2Text}
+          </button>
+        </Link>
+      </div>
+    )}
+  </div>
+</div>
+
 
       {/* Right Image Section */}
       <div className="lg:flex-[0.6] flex items-center justify-center p-4 lg:p-12">
