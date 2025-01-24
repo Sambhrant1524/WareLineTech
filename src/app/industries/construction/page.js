@@ -147,7 +147,7 @@ export default function Construction() {
         backgroundImage="/IndustriesImg/constructionBg.jpeg"
         buttonGradient="bg-gradient-to-r from-purple-400 to-pink-400"
         title="Construction App Development Company"
-        description="Partner with WareLineTech, a leading construction app development company, to transform your construction business, optimize operations, and deliver exceptional project outcomes."
+        description="Partner with WarelineTech, a leading construction app development company, to transform your construction business, optimize operations, and deliver exceptional project outcomes."
         imageSrc="/IndustriesImg/constructionHero.jpg"
       />
 

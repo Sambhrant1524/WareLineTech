@@ -147,7 +147,7 @@ export default function Education() {
         backgroundImage="/IndustriesImg/educationBG.jpeg"
         buttonGradient="bg-gradient-to-r from-purple-400 to-pink-400"
         title="Education App Development Company"
-        description="Partner with WareLineTech, a leading education app development company, to transform your institution, optimize operations, and deliver exceptional learning experiences."
+        description="Partner with WarelineTech, a leading education app development company, to transform your institution, optimize operations, and deliver exceptional learning experiences."
         imageSrc="/IndustriesImg/educationHero.jpg"
       />
 

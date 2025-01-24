@@ -43,9 +43,9 @@ export default function AndroidServices() {
         },
         {
             id: 4,
-            title: "App Store Optimization (ASO)",
+            title: "Play Store Optimization (PSO)",
             description:
-                "Boost your app’s visibility and downloads with expert App Store Optimization techniques to stand out on the Play Store.",
+                "Boost your app’s visibility and downloads with expert Play Store Optimization techniques to stand out on the Play Store.",
             icon: <FaSearch />,
         },
         {

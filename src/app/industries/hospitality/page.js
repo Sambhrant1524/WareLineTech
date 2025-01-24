@@ -147,7 +147,7 @@ export default function Hospitality() {
         backgroundImage="/IndustriesImg/hospitalityBg.jpeg"
         buttonGradient="bg-gradient-to-r from-yellow-400 to-pink-400"
         title="Hospitality App Development Company"
-        description="Partner with WareLineTech, a leading hospitality app development company, to transform your hospitality business, optimize operations, and deliver exceptional guest experiences."
+        description="Partner with WarelineTech, a leading hospitality app development company, to transform your hospitality business, optimize operations, and deliver exceptional guest experiences."
         imageSrc="/IndustriesImg/hospitalityHero.jpg"
       />
 

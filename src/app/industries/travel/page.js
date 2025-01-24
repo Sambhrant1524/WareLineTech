@@ -147,7 +147,7 @@ export default function Travel() {
         backgroundImage="/IndustriesImg/trabelBG.jpeg"
         buttonGradient="bg-gradient-to-r from-pink-400 to-yellow-400"
         title="Travel App Development Company"
-        description="Partner with WareLineTech, a leading travel app development company, to transform your travel business, optimize operations, and deliver exceptional experiences to your customers."
+        description="Partner with WarelineTech, a leading travel app development company, to transform your travel business, optimize operations, and deliver exceptional experiences to your customers."
         imageSrc="/IndustriesImg/travelHero.jpg"
       />
 

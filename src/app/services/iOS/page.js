@@ -238,7 +238,7 @@ import {
           subtitle="We're Ready to Support Your iOS App Development Needs"
           description="Contact us today to start your iOS app development journey or for any inquiries about our services."
           buttonText="Contact Now"
-          highlightText="schedule a consultation now!"
+          highlightText="Schedule a consultation now!"
           highlightGradient={{ from: "#00c6ff", to: "#0072ff" }}
           buttonGradientFrom="#00c6ff"
           buttonGradientTo="#0072ff"

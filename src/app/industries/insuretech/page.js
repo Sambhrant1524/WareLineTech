@@ -147,7 +147,7 @@ export default function InsureTech() {
         backgroundImage="/IndustriesImg/insuretechBG.jpeg"
         buttonGradient="bg-gradient-to-r from-violet-400 to-blue-400"
         title="InsureTech App Development Company"
-        description="Partner with WareLineTech, a leading InsureTech app development company, to transform your insurance business, optimize operations, and deliver exceptional experiences to your customers."
+        description="Partner with WarelineTech, a leading InsureTech app development company, to transform your insurance business, optimize operations, and deliver exceptional experiences to your customers."
         imageSrc="/IndustriesImg/insuretechHero.jpg"
       />
 

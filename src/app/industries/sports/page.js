@@ -147,7 +147,7 @@ export default function Sports() {
         backgroundImage="/IndustriesImg/sportsBG.jpeg"
         buttonGradient="bg-gradient-to-r from-purple-400 to-pink-400"
         title="Sports App Development Company"
-        description="Partner with WareLineTech, a leading sports app development company, to transform your sports organization, optimize operations, and deliver exceptional fan and team experiences."
+        description="Partner with WarelineTech, a leading sports app development company, to transform your sports organization, optimize operations, and deliver exceptional fan and team experiences."
         imageSrc="/IndustriesImg/sportsHero.png"
       />
 
