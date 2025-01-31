@@ -12,9 +12,9 @@ const Footer = () => {
           {/* Contact Section */}
           <div>
             <img
-              src="/WarelineLogo.png"
+              src="/WarelinelogoDark.png"
               alt="WareLineTech Logo"
-              className="w-60 h-24"
+              className="w-60 h-16"
             />
             <h4 className="font-bold text-lg mb-4">India</h4>
             <p className="text-sm">
