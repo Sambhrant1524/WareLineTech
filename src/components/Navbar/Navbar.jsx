@@ -53,9 +53,9 @@ const Navbar = () => {
         <div className="text-xl font-bold text-black">
           <Link href="/">
             <img
-              src="/warelinetechlogo.svg"
+              src="/WarelineTechLogoLight.svg"
               alt="WareLineTech Logo"
-              className="w-40 h-40"
+              className="w-48 h-48"
             />
           </Link>
         </div>
@@ -69,7 +69,6 @@ const Navbar = () => {
             { name: "Hire Developers", route: "/hire-developers" },
             { name: "Company", route: "" },
             { name: "Press", route: "/press" },
-            { name: "Contact Us", route: "/contact-us" },
           ].map((item) => (
             <li key={item.name} className="group relative">
               <Link
@@ -94,6 +93,15 @@ const Navbar = () => {
               )}
             </li>
           ))}
+
+          {/* Contact Us Button */}
+          <li>
+            <Link href="/contact-us">
+              <button className="bg-gradient-to-r from-black to-gray-800 text-white px-4 py-2 rounded-lg hover:opacity-80 transition">
+                Contact Us
+              </button>
+            </Link>
+          </li>
         </ul>
 
         {/* Mobile Menu Trigger */}
@@ -127,7 +135,6 @@ const Navbar = () => {
                 { name: "Hire Developers", route: "/hire-developers" },
                 { name: "Company", route: "" },
                 { name: "Press", route: "/press" },
-                { name: "Contact Us", route: "/contact-us" },
               ].map((item) => (
                 <div key={item.name} className="mb-4">
                   <div
@@ -173,25 +180,15 @@ const Navbar = () => {
                   )}
                 </div>
               ))}
-            </div>
 
-            {/* Social Links */}
-            <div className="flex justify-center space-x-6 p-6">
-              <Link href="#" className="text-blue-600">
-                LinkedIn
-              </Link>
-              <Link href="#" className="text-pink-600">
-                Instagram
-              </Link>
-              <Link href="#" className="text-black">
-                X
-              </Link>
-              <Link href="#" className="text-pink-500">
-                Behance
-              </Link>
-              <Link href="#" className="text-blue-500">
-                Discord
-              </Link>
+              {/* Contact Us Button for Mobile */}
+              <div className="mt-6 text-center">
+                <Link href="/contact-us">
+                  <button className="bg-gradient-to-r from-black to-gray-800 text-white px-6 py-3 rounded-lg w-full hover:opacity-80 transition">
+                    Contact Us
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
