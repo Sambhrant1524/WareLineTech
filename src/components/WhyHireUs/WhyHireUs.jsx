@@ -6,7 +6,7 @@ const WhyHireUs = ({
   titleClassName = "text-center text-2xl font-bold mb-8",
   
   // Subtitle props
-  subtitleStart = "For over 15 years, we've built",
+  subtitleStart = "For over 5 years, we've built",
   highlightText = "2000+ apps",
   subtitleEnd = "and portals, impacting millions.",
   subtitleClassName = "text-center text-4xl font-normal mb-16",

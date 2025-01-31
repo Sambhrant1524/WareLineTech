@@ -152,7 +152,7 @@ export default function RealEstate() {
         backgroundImage="https://images.pexels.com/photos/7130560/pexels-photo-7130560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         buttonGradient="bg-gradient-to-r from-pink-400 to-violet-400"
         title="Real Estate App Development Company"
-        description="Partner with WareLineTech, a leading real estate app development company, to transform your property business, streamline operations, and deliver exceptional experiences to your customers."
+        description="Partner with WarelineTech, a leading real estate app development company, to transform your property business, streamline operations, and deliver exceptional experiences to your customers."
         imageSrc="https://images.pexels.com/photos/273209/pexels-photo-273209.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       />
 

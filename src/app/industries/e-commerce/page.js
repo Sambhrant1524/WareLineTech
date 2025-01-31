@@ -7,9 +7,9 @@ import ContactUsSection from "@/components/ContactUs/ContactUsSection";
 
 const content = {
   title: "This is why WarelineTech is the",
-  highlight: "#1 eCommerce App Development Company",
+  highlight: "#1 E-Commerce App Development Company",
   description:
-    "From online stores to marketplaces, our eCommerce app development services and tools ensure streamlined operations and exceptional shopping experiences, driving business growth and customer loyalty.",
+    "From online stores to marketplaces, our E-Commerce app development services and tools ensure streamlined operations and exceptional shopping experiences, driving business growth and customer loyalty.",
   features: [
     {
       title: "Custom Online Stores",
@@ -34,7 +34,7 @@ const carouselData = [
     icon: "🛒",
     title: "Custom Online Stores",
     description:
-      "Develop bespoke eCommerce platforms with advanced features like inventory management, multi-currency support, and responsive design to captivate and retain customers.",
+      "Develop bespoke E-Commerce platforms with advanced features like inventory management, multi-currency support, and responsive design to captivate and retain customers.",
   },
   {
     icon: "🤖",
@@ -64,7 +64,7 @@ const carouselData = [
     icon: "☁️",
     title: "Cloud-Based Scalability",
     description:
-      "Optimize operations with cloud-based eCommerce platforms that scale with your business needs, ensuring smooth performance during high-traffic events.",
+      "Optimize operations with cloud-based E-Commerce platforms that scale with your business needs, ensuring smooth performance during high-traffic events.",
   },
   {
     icon: "🚚",
@@ -77,51 +77,51 @@ const carouselData = [
 const faqData = [
 
   {
-    question: "What services does WarelineTech offer for eCommerce app development?",
+    question: "What services does WarelineTech offer for E-Commerce app development?",
     answer:
-      "WarelineTech offers comprehensive eCommerce app development services, including custom online stores, mobile apps, payment gateway integration, and advanced analytics solutions.",
+      "WarelineTech offers comprehensive E-Commerce app development services, including custom online stores, mobile apps, payment gateway integration, and advanced analytics solutions.",
   },
   {
-    question: "How can eCommerce app development services benefit my business?",
+    question: "How can E-Commerce app development services benefit my business?",
     answer:
       "Our services help streamline operations, enhance customer experience, improve sales, and ensure scalability for businesses of all sizes.",
   },
   {
-    question: "Do you develop eCommerce apps for both iOS and Android platforms?",
+    question: "Do you develop E-Commerce apps for both iOS and Android platforms?",
     answer:
-      "Yes, WarelineTech develops eCommerce apps for both iOS and Android platforms, ensuring a seamless shopping experience across all devices.",
+      "Yes, WarelineTech develops E-Commerce apps for both iOS and Android platforms, ensuring a seamless shopping experience across all devices.",
   },
   {
-    question: "Can I hire dedicated app developers for my eCommerce project?",
+    question: "Can I hire dedicated app developers for my E-Commerce project?",
     answer:
-      "Absolutely! We offer dedicated developers who specialize in building secure, scalable, and user-friendly eCommerce apps tailored to your specific needs.",
+      "Absolutely! We offer dedicated developers who specialize in building secure, scalable, and user-friendly E-Commerce apps tailored to your specific needs.",
   },
   {
-    question: "How long does it typically take to develop an eCommerce app?",
+    question: "How long does it typically take to develop an E-Commerce app?",
     answer:
-      "The development timeline depends on the app's complexity and features. On average, an eCommerce app can take 3 to 6 months to develop, including design, development, testing, and deployment.",
+      "The development timeline depends on the app's complexity and features. On average, an E-Commerce app can take 3 to 6 months to develop, including design, development, testing, and deployment.",
   },
   {
-    question: "Can you integrate my eCommerce app with existing platforms?",
+    question: "Can you integrate my E-Commerce app with existing platforms?",
     answer:
-      "Yes, we specialize in integrating eCommerce apps with existing platforms, including CRMs, ERPs, and third-party APIs, to ensure seamless functionality.",
+      "Yes, we specialize in integrating E-Commerce apps with existing platforms, including CRMs, ERPs, and third-party APIs, to ensure seamless functionality.",
   },
   {
-    question: "What sets WarelineTech apart from other eCommerce app development companies?",
+    question: "What sets WarelineTech apart from other E-Commerce app development companies?",
     answer:
-      "WarelineTech stands out for its focus on innovative solutions, user-centric designs, scalable architecture, and a dedicated team committed to delivering high-quality eCommerce apps.",
+      "WarelineTech stands out for its focus on innovative solutions, user-centric designs, scalable architecture, and a dedicated team committed to delivering high-quality E-Commerce apps.",
   },
   {
-    question: "Do you offer ongoing support and maintenance for eCommerce apps?",
+    question: "Do you offer ongoing support and maintenance for E-Commerce apps?",
     answer:
       "Yes, we provide ongoing support and maintenance services to ensure your app remains secure, updated, and fully functional, adapting to evolving market needs.",
   },
 ];
 
 const methodologyData = {
-  heading: "eCommerce App Development Methodology",
+  heading: "E-Commerce App Development Methodology",
   description:
-    "Our methodology for eCommerce app development focuses on delivering secure, scalable, and user-centric solutions. By leveraging cutting-edge technology and agile principles, we create applications that enhance customer engagement, streamline operations, and drive business growth.",
+    "Our methodology for E-Commerce app development focuses on delivering secure, scalable, and user-centric solutions. By leveraging cutting-edge technology and agile principles, we create applications that enhance customer engagement, streamline operations, and drive business growth.",
   cards: [
     {
       icon: "📱",
@@ -148,8 +148,8 @@ export default function Healthcare() {
       <HeroSection2
         backgroundImage="/IndustriesImg/ECommerceBG.jpeg"
         buttonGradient="bg-gradient-to-r from-orange-400 to-gray-400"
-        title=" eCommerce App Development Company"
-        description="Partner with WareLineTech, a leading eCommerce app development company, to transform your online business, streamline operations, and deliver unparalleled shopping experiences to your customers."
+        title=" E-Commerce App Development Company"
+        description="Partner with WarelineTech, a leading E-Commerce app development company, to transform your online business, streamline operations, and deliver unparalleled shopping experiences to your customers."
         imageSrc="/IndustriesImg/EcommerceHome.jpeg"
       />
 
@@ -158,8 +158,8 @@ export default function Healthcare() {
         content={content}
       />
       <Carousel
-        title="Transforming eCommerce with Innovative Solutions"
-        subtitle="Discover how cutting-edge technologies are reshaping the eCommerce landscape. From AI-driven recommendations to seamless mobile shopping experiences, explore solutions that enhance customer satisfaction, boost sales, and drive business growth."
+        title="Transforming E-Commerce with Innovative Solutions"
+        subtitle="Discover how cutting-edge technologies are reshaping the E-Commerce landscape. From AI-driven recommendations to seamless mobile shopping experiences, explore solutions that enhance customer satisfaction, boost sales, and drive business growth."
         data={carouselData}
       />
       <MethodologySection

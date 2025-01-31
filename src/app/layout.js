@@ -12,7 +12,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "WareLine Tech",
+  title: "Best Mobile Application Development Company in USA & India",
   description: "A Dropservicing website",
 };
 

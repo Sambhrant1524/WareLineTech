@@ -153,7 +153,7 @@ export default function Healthcare() {
         backgroundImage="/IndustriesImg/HealthCareBg.jpeg"
         buttonGradient="bg-gradient-to-r from-green-400 to-yellow-500"
         title="HealthCare App Development Company"
-        description="Partner with WarelineTech, a leading Insurance App development company to transform insurance processes & drive efficiency and unmatched customer satisfaction"
+        description="Partner with WarelineTech, a leading HealthCare App development company to transform healthCare processes & drive efficiency and unmatched customer satisfaction"
         imageSrc="/IndustriesImg/HealthCareHero.png"
       />
       <AboutSection
