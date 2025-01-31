@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { Phone } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -18,10 +19,12 @@ const Footer = () => {
             />
             <h4 className="font-bold text-lg mb-4">India</h4>
             <p className="text-sm">
-              Wareline Technologies, 4th Floor, <br />
-              Plot No. - D-176, Phase 8 B, Industrial Area,<br />
-              Sector 74, Mohali, Punjab, 140501<br />
-              +91 9090989877
+              Wareline Technologies, 6th Floor, <br />
+              Plot No. - D-176, Phase 8 B, Industrial Area, Sector 74, Mohali, Punjab.  140501  <br />
+              <span className="flex items-center gap-1 mt-2">
+          <Phone className="w-4 h-4 text-gray-600" /> +91 9090989877
+        </span>
+              
             </p>
 
             <h4 className="font-bold text-lg mt-4 mb-4">USA</h4>
