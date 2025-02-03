@@ -6,7 +6,7 @@ import ContactUsSection from "@/components/ContactUs/ContactUsSection";
 import TestimonialSlider from "@/components/TestimonialSlider/TestimonialSlider";
 import Solution from "@/components/Solution/Solution";
 import FeaturedWork from "@/components/FeaturedWork/FeaturedWork";
-
+import Modal from "@/components/Modal/Modal";
 export default function Home() {
   const faqData = [
     {
@@ -123,7 +123,10 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen">
+   <>
+   
+     <div className="min-h-screen">
+     <Modal />
       <LandingPageHeroSection slides={slides} />
       <TestimonialSlider />
       <Solution />
@@ -141,5 +144,6 @@ export default function Home() {
         buttonGradientTo="#ff6347"
       />
     </div>
+   </>
   );
 }
