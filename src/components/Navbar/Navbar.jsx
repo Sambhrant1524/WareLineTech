@@ -47,15 +47,15 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-md sticky top-0 z-50">
+    <nav className="bg-white shadow-md sticky top-8 z-50">
       <div className="container mx-auto px-4 flex justify-between items-center h-16">
         {/* Logo */}
         <div className="text-xl font-bold text-black">
           <Link href="/">
             <img
-              src="/WarelineTechLogoLight.svg"
+              src="/WarelineLightLogo.png"
               alt="WareLineTech Logo"
-              className="w-48 h-48"
+              className="w-64 h-10"
             />
           </Link>
         </div>
@@ -67,6 +67,7 @@ const Navbar = () => {
             { name: "Services", route: "/services" },
             { name: "Industries", route: "/industries" },
             { name: "Hire Developers", route: "/hire-developers" },
+            { name: "Games", route: "/games" },
             { name: "Company", route: "" },
             { name: "Press", route: "/press" },
           ].map((item) => (

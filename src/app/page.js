@@ -7,6 +7,7 @@ import TestimonialSlider from "@/components/TestimonialSlider/TestimonialSlider"
 import Solution from "@/components/Solution/Solution";
 import FeaturedWork from "@/components/FeaturedWork/FeaturedWork";
 import Modal from "@/components/Modal/Modal";
+import TopBar from "@/components/TopBar/TopBar";
 export default function Home() {
   const faqData = [
     {
@@ -124,8 +125,8 @@ export default function Home() {
 
   return (
    <>
-   
-     <div className="min-h-screen">
+     <div className="min-h-screen"> 
+     <TopBar />
      <Modal />
       <LandingPageHeroSection slides={slides} />
       <TestimonialSlider />
