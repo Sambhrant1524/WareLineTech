@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import FloatingChat from "@/components/FloatingChat/FloatingChat";
+import TopBar from "@/components/TopBar/TopBar";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </Head>
+      <TopBar />
         <Navbar />
         {children}
         <FloatingChat />
