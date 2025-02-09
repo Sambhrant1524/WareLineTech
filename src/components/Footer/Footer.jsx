@@ -20,7 +20,7 @@ const Footer = () => {
             <h4 className="font-bold text-lg mb-4">India</h4>
             <p className="text-sm">
               Wareline Technologies, 6th Floor, <br />
-              Plot No. - D-176, Phase 8 B, Industrial Area, Sector 74, Mohali, Punjab.  140501  <br />
+              Plot No. - D-176, Phase 8 B, Industrial Area, Sector 74, Mohali, Punjab  140501  <br />
               <span className="flex items-center gap-1 mt-2">
           <Phone className="w-4 h-4 text-gray-600" /> +91 9090989877
         </span>
@@ -29,8 +29,11 @@ const Footer = () => {
 
             <h4 className="font-bold text-lg mt-4 mb-4">USA</h4>
             <p className="text-sm">
-              3900 Westerre Parkway Suite 300 Richmond, <br />
-              VA 23233<br />
+              3900 Westerre Parkway Suite 300 Richmond, VA 23233 <br />
+              
+              <span className="flex items-center gap-1 mt-2">
+          <Phone className="w-4 h-4 text-gray-600" /> +1 804-727-0200
+        </span>
             </p>
           </div>
 

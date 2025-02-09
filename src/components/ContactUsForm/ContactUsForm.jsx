@@ -185,8 +185,9 @@ const ContactForm = () => {
   <div className="w-full md:w-auto space-y-4">
     <h3 className="text-lg font-bold">USA</h3>
     <div className="space-y-2 text-gray-600">
-      <p>3900 Westerre Parkway Suite 300 Richmond,</p>
-      <p>VA 23233</p>
+      <p>3900 Westerre Parkway Suite 300 Richmond,VA 23233</p>
+      <p>+1 804-727-0200</p>
+
     </div>
   </div>
 </div>
