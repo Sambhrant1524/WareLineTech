@@ -124,8 +124,7 @@ export default function Home() {
 
   return (
    <>
-   
-     <div className="min-h-screen">
+     <div className="min-h-screen"> 
      <Modal />
       <LandingPageHeroSection slides={slides} />
       <TestimonialSlider />

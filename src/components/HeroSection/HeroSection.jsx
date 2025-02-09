@@ -68,9 +68,9 @@ const HeroSection = ({
       <div className="absolute w-full h-full">
         {floatingImages.map((image, index) => {
           const positions = [
-            { top: "75%", left: "10%" },
-            { top: "80%", left: "60%" },
-            { top: "85%", left: "40%" },
+            { top: "75%", left: "20%" },
+            { top: "80%", left: "70%" },
+            { top: "85%", left: "45%" },
           ];
 
           const { top, left } = positions[index % positions.length];
